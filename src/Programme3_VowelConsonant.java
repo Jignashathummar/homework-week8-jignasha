@@ -16,6 +16,11 @@ public class Programme3_VowelConsonant {
         scanner.close();
     }
 
+    /**
+     * static method for input char is vowel or consonant
+     * @param ch
+     * @return
+     */
     public static String vowelConsonant(char ch) {
         char lowerCaseCh = Character.toLowerCase(ch);
         if (Character.isLetter(ch)) {

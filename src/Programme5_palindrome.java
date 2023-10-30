@@ -18,6 +18,11 @@ public class Programme5_palindrome {
         scanner.close();
     }
 
+    /**
+     * static method for input number is Palindrome or not
+     * @param number
+     * @return
+     */
     public static boolean isPalindrome(int number) {
         int reversedNum = 0, remainder;
         int originalNum = number;

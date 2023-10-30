@@ -58,20 +58,36 @@ public class Programme18_SimpleCalculator {
         this.secondNumber = secondNumber;
     }
 
+    /**
+     * method for addition of two number
+     * @return
+     */
     public double getAdditionResult() {
         return firstNumber + secondNumber;
 
     }
 
+    /**
+     * method for subtraction of two number
+     * @return
+     */
     public double getSubtractionResult() {
         return firstNumber - secondNumber;
     }
 
+    /**
+     * method for multiplication of two number
+     * @return
+     */
     public double getMultiplicationResult() {
         return firstNumber * secondNumber;
 
     }
 
+    /**
+     * method for division of two number
+     * @return
+     */
     public double getDivisionResult() {
         if (secondNumber != 0) {
             return firstNumber / secondNumber;

@@ -16,6 +16,11 @@ public class Programme12_Prime {
         scanner.close();
     }
 
+    /**
+     * static method for input number is prime or not
+     * @param num
+     * @return
+     */
     public static boolean isPrime(int num) {
         if (num <= 1) {
             return false;

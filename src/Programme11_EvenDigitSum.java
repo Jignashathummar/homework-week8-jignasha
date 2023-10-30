@@ -16,6 +16,12 @@ public class Programme11_EvenDigitSum {
         scanner.close();
     }
 
+    /**
+     * static method for sum of even input number digits
+     *
+     * @param number
+     * @return
+     */
     public static int getEvenDigitSum(int number) {
         int sumOfEvenDigit = 0;
         if (number < 0) {

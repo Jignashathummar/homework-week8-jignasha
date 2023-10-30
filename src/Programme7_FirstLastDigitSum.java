@@ -18,6 +18,11 @@ public class Programme7_FirstLastDigitSum {
         scanner.close();
     }
 
+    /**
+     * static methode for sum of first anf last input digit
+     * @param number
+     * @return
+     */
     public static int sumFirstAndLastDigit(int number) {
         if (number < 0) {
             return -1;

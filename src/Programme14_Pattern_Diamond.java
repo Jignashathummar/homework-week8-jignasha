@@ -13,6 +13,10 @@ public class Programme14_Pattern_Diamond {
         scanner.close();
     }
 
+    /**
+     * static method for draw diamond
+     * @param num
+     */
     public static void diamond(int num) {
         int i = 1;
         while (i <= num) {

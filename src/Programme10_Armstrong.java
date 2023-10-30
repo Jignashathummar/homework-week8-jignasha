@@ -16,6 +16,11 @@ public class Programme10_Armstrong {
         scanner.close();
     }
 
+    /**
+     * static method for input number is armstrong or not
+     * @param number
+     * @return
+     */
     public static Boolean armstrong(int number) {
         int originalNumber, remainder, result = 0;
         originalNumber = number;

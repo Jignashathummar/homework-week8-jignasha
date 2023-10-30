@@ -1,5 +1,3 @@
-import java.awt.*;
-
 /**
  * 16. Point
  * You have to represent a point in 2D space. Write a class with the name Point. The class needs two fields (instance variables) with name x and y of type int.
@@ -31,23 +29,26 @@ import java.awt.*;
  * NOTE: In total, you have to write 7 methods.
  */
 public class Programme16_Point {
+    //fields
     int x;
     int y;
 
     public static void main(String[] args) {
         int x = 0, y = 0;
-        Point first = new Point(6, 5);
-        Point second = new Point(3, 1);
-        System.out.println("distance(0,0)= " + first.distance(x,y));
+        Programme16_Point first = new Programme16_Point(6, 5);
+        Programme16_Point second = new Programme16_Point(3, 1);
+        System.out.println("distance(0,0)= " + first.distance());
         System.out.println("distance(second)= " + first.distance(second));
         System.out.println("distance(2,2)= " + first.distance(2, 2));
-        Point point = new Point();
-        System.out.println("distance()= " + point.distance(point));
+        Programme16_Point point = new Programme16_Point();
+        System.out.println("distance()= " + point.distance());
     }
 
+    // Constructors
     public Programme16_Point() {
     }
 
+    // Constructors
     public Programme16_Point(int x, int y) {
         this.x = x;
         this.y = y;
@@ -77,7 +78,7 @@ public class Programme16_Point {
         return Math.sqrt(Math.pow(this.x - x, 2) + Math.pow(this.y - y, 2));
     }
 
-    public double distance(Point another) {
+    public double distance(Programme16_Point another) {
         return Math.sqrt(Math.pow(this.x - another.x, 2) + Math.pow(this.y - another.y, 2));
     }
 }

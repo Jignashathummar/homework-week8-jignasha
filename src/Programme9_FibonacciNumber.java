@@ -12,6 +12,10 @@ public class Programme9_FibonacciNumber {
         scanner.close();
     }
 
+    /**
+     * static method for print fibonacci series
+     * @param num
+     */
     public static void fibonacci(int num) {
         int num1 = 1, num2 = 1;
         System.out.println("Fibonacci series is: ");

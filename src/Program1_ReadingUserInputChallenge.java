@@ -16,6 +16,12 @@ import java.util.Scanner;
  */
 
 public class Program1_ReadingUserInputChallenge {
+
+    /**
+     * static method for sum of 10 input number
+     * @param scanner
+     * @return
+     */
     public static int nextInt(Scanner scanner) {
         int sum = 0;
         int count = 1;

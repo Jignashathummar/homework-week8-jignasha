@@ -27,6 +27,11 @@ public class Programme4_DigitSumChallenge {
         scanner.close();
     }
 
+    /**
+     * staic method for sum of input number digit
+     * @param num
+     * @return
+     */
     public static int sumDigits(int num) {
         int digit, sum = 0;
         if (num < 10) {
@@ -37,7 +42,6 @@ public class Programme4_DigitSumChallenge {
                 sum = sum + digit;
                 num = num / 10;
             }
-
             return sum;
         }
     }

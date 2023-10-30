@@ -12,6 +12,12 @@ import java.util.Scanner;
  */
 public class Programme2_MinAndMaxInputChallenge {
 
+    /**
+     * Instance method for get min and max number from user input
+     * @param scanner
+     * @return
+     */
+
     public ArrayList<Integer> maxAndMinValue(Scanner scanner) {
 
         ArrayList<Integer> numList = new ArrayList<Integer>();
